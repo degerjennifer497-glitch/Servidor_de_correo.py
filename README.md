@@ -4,8 +4,11 @@
 
 
 UNIVERSIDAD NACIONAL Guillermo Brown 
+
 Tecnicatura Universitaria en Programación
+
 ASIGNATURA: Estructura de Datos
+
 CICLO LECTIVO: 2025
 
 Trabajo Práctico :” Cliente de Correo electrónico”
@@ -22,11 +25,13 @@ Lineamientos generales:
 
 El siguiente trabajo consiste en emular un sistema de correo electrónico que sea capaz de enviar y recibir mensajes utilizando el paradigma de programación orientado a objetos.Para ello hemos decido utilizar 4 clases principales (Interfaz, servidor, mensaje y usuario)
 Cuyo funcionamiento estaremos detallando a continuación:
+
 Interfaz: Decidimos crear la clase interfaz como plantilla que heredará la clase usuario y los distintos tipos de clase usuario que podría llegar a haber en el futuro. En ella definimos los métodos que creemos que deberá tener cualquier usuario que utilice esta plataforma, los cuales son: Enviar mensaje, recibir mensaje, mostrar bandeja de entrada y mostrar bandeja de salida.
 
 Servidor: La clase servidor se encarga de articular las clases Mensaje y Usuario. Nos provee de un Menú para crear los usuarios y los guarda en una lista para luego poder acceder a ellos y utilizar sus correspondientes atributos.
 
 Mensaje: La clase mensaje nos provee de un formato para crear los mensajes que posteriormente se estarán enviando entre los usuarios.
+
 Usuario: Esta clase nos permite definir los parámetros que deben tener los clientes en el correo. Definimos los atributos nombre, correo y contraseña con la característica privada puesto que creemos que se trata de información confidencial del cliente de modo que los encapsulamos y posteriormente procedimos a crear a partir de decoradores los métodos  getters y setters para acceder y/o modificar estos atributos en caso de que sea necesario. Y además hereda los métodos de interfaz (que nos permiten enviar mensajes, recibir mensaje, ver bandeja de entrada y salida). 
 
 Ejecución de el programa:
