@@ -18,8 +18,7 @@ Docente:
 Bianco Angel Leonardo
 
 Alumnos:
-Deger Jennifer Pamela
-Benitez Agustin Ariel
+Deger Jennifer Pamela,Benitez Agustin Ariel
 
 Lineamientos generales:
 
