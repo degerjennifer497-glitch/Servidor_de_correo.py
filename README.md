@@ -35,3 +35,6 @@ Este menú se ejecuta inmediatamente después que el cliente inicia la sesión, 
 2_ Ver bandeja de entrada: Si se ingresa el número 2 (dos) el programa imprime los mensaje que hemos recibido (De no haber recibido ningún mensaje se imprime en pantalla “No hay mensajes”)  y nos retorna al menú del usuario. 
 3_ Ver bandeja de salida: En caso de ingresar el número 3(tres) de forma muy similar a la opción 2 se nos muestra en pantalla los mensajes que hemos enviado.
 4_ Salir: Al seleccionar la opción 4 (cuatro) regresamos al Menú principal.
+
+
+<img width="1103" height="1008" alt="image" src="https://github.com/user-attachments/assets/1fad7e53-ddd1-4272-b501-e4dea8be2f46" />
